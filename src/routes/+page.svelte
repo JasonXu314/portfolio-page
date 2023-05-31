@@ -44,6 +44,10 @@
 	onMount(playAnimation);
 </script>
 
+<svelte:head>
+	<title>Jason Xu</title>
+</svelte:head>
+
 <main class="container">
 	<Typewriter bind:setText={setHeader} element="h1" focused={headFocus} />
 	<Typewriter bind:setText={setSub} focused={subFocus} />
