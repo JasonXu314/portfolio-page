@@ -17,26 +17,26 @@
 	}
 
 	async function playAnimation() {
-		await write(setHeader, 'Hi!', 1000);
-		await write(setHeader, "I'm Jason Xu", 2000);
-		await write(setHeader, 'I', 1000);
-		await write(setHeader, 'I.', 1000);
-		await write(setHeader, 'I..', 1000);
-		await write(setHeader, 'I...', 2000);
-		await write(setHeader, 'I make things!', 2000);
+		await write(setHeader, 'Hi!', 500);
+		await write(setHeader, "I'm Jason Xu", 1000);
+		await write(setHeader, 'I', 500);
+		await write(setHeader, 'I.', 500);
+		await write(setHeader, 'I..', 500);
+		await write(setHeader, 'I...', 1000);
+		await write(setHeader, 'I make things!', 1000);
 		headFocus = false;
 		subFocus = true;
-		await sleep(2000);
-		typewriterTimeout.set(100);
-		await write(setSub, 'idk im not very creative lol', 5000);
+		await sleep(1000);
+		typewriterTimeout.set(50);
+		await write(setSub, 'idk im not very creative lol', 2500);
 		headFocus = true;
 		subFocus = true;
-		typewriterTimeout.set(50);
+		typewriterTimeout.set(25);
 		await Promise.all([write(setHeader, '', 0), write(setSub, '', 0)]);
-		await sleep(500);
+		await sleep(250);
 		subFocus = false;
-		await sleep(2000);
-		typewriterTimeout.set(250);
+		await sleep(1000);
+		typewriterTimeout.set(125);
 
 		requestAnimationFrame(playAnimation);
 	}
