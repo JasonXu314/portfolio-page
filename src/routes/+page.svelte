@@ -49,6 +49,9 @@
 
 <svelte:head>
 	<title>Jason Xu</title>
+	<meta name="author" content="Jason Xu" />
+	<meta name="description" content="About me" />
+	<meta name="keywords" content="jason xu,portfolio,resume" />
 </svelte:head>
 
 <main class="container">
