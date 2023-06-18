@@ -52,6 +52,12 @@
 	<meta name="author" content="Jason Xu" />
 	<meta name="description" content="About me" />
 	<meta name="keywords" content="jason xu,portfolio,resume" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Home" />
+	<meta property="og:description" content="About me" />
+	<meta property="og:url" content="https://jasonxu.dev" />
+	<meta property="og:site_name" content="Jason Xu" />
 </svelte:head>
 
 <main class="container">
