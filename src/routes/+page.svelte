@@ -58,6 +58,8 @@
 	<meta property="og:description" content="About me" />
 	<meta property="og:url" content="https://jasonxu.dev" />
 	<meta property="og:site_name" content="Jason Xu" />
+	<meta property="og:image" content="https://jasonxu.dev/logo.png" />
+	<meta name="theme-color" content="#1897C2" />
 </svelte:head>
 
 <main class="container">
