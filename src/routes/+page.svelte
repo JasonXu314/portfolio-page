@@ -27,12 +27,11 @@
 		await write(setHeader, 'I..', 500);
 		await write(setHeader, 'I...', 1000);
 		await write(setHeader, 'I make things!', 1000);
-		await write(setHeader, 'I make cool things!', 1000);
 		headFocus = false;
 		subFocus = true;
 		await sleep(1000);
 		typewriterTimeout.set(50);
-		await write(setSub, 'idk im not very creative lol', 500);
+		await Promise.all([write(setHeader, 'I make cool things!', 1000), write(setSub, 'idk im not very creative lol', 1000)]);
 		await write(setSub, 'click the arrow to check them out', 2500);
 		headFocus = true;
 		subFocus = true;
