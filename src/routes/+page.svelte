@@ -27,11 +27,13 @@
 		await write(setHeader, 'I..', 500);
 		await write(setHeader, 'I...', 1000);
 		await write(setHeader, 'I make things!', 1000);
+		await write(setHeader, 'I make cool things!', 1000);
 		headFocus = false;
 		subFocus = true;
 		await sleep(1000);
 		typewriterTimeout.set(50);
-		await write(setSub, 'idk im not very creative lol', 2500);
+		await write(setSub, 'idk im not very creative lol', 500);
+		await write(setSub, 'click the arrow to check them out', 2500);
 		headFocus = true;
 		subFocus = true;
 		typewriterTimeout.set(25);
@@ -94,15 +96,14 @@
 				}}
 			>
 				<svelte:fragment slot="headings">
-					<h2>ER Diagrammer</h2>
-					<h4>Tool for building ER/EER Diagrams for Databases</h4>
+					<h2>CSTK</h2>
+					<h4>A collection of tools (including G--) for making CS at S&T easier</h4>
 				</svelte:fragment>
 				<p>
-					A project I made during CS2300 (Intro to Databases & File Structures) because I found other available services to be lacking in quality.
-					Rendered using vanilla HTML canvas, with self-written render & game engines. GUI built using
-					<ExternalLink href="https://svelte.dev/">Svelte.js</ExternalLink>
-					and
-					<ExternalLink href="https://www.svelteui.org/">SvelteUI</ExternalLink>.
+					A collection of various projects written throughout the classes I have taken at S&T with the objective of filling vacancies in tooling, or
+					improving upon UX of existing tools. Technologies used vary depending on the targetted environment, but mainly consist of
+					<ExternalLink href="https://www.svelteui.org/">SvelteUI</ExternalLink>
+					for fullstack applications, and C++ for CLI applications.
 				</p>
 			</Article>
 		</div>
