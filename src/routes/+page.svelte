@@ -89,7 +89,7 @@
 			</Article>
 			<Article
 				links={{
-					Website: 'https://er-diagram.vercel.app/',
+					Website: 'https://cstk.jasonxu.dev/',
 					'Frontend Repo': 'https://github.com/JasonXu314/er-diagram',
 					'Backend Repo': 'https://github.com/JasonXu314/er-backend'
 				}}
