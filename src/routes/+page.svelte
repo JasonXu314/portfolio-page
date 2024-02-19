@@ -72,6 +72,7 @@
 	<section id="projects">
 		<hgroup>
 			<h1>Some assorted personal projects</h1>
+			<h2>And also check out my <a href="/resume.pdf" target="_blank" rel="noreferrer noopener">resume</a></h2>
 			<h3>Full list can be found on my <a href="https://github.com/JasonXu314" target="_blank" rel="noreferrer noopener">GitHub</a></h3>
 		</hgroup>
 		<div class="grid">
